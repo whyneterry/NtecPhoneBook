@@ -1,4 +1,3 @@
-# Ваша библиотека
 add_library(${CMAKE_PROJECT_NAME}-lib
     ${CMAKE_CURRENT_SOURCE_DIR}/dto/DTOs.hpp
     ${CMAKE_CURRENT_SOURCE_DIR}/dto/DTOUtils.hpp
@@ -13,7 +12,6 @@ add_library(${CMAKE_PROJECT_NAME}-lib
     ${CMAKE_CURRENT_SOURCE_DIR}/app/SwaggerComponent.hpp
 )
 
-# Добавляем заголовочные файлы (они уже в основном файле, но на всякий случай)
 target_include_directories(${CMAKE_PROJECT_NAME}-lib
     PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}
@@ -22,18 +20,17 @@ target_include_directories(${CMAKE_PROJECT_NAME}-lib
         ${CMAKE_SOURCE_DIR}/libs/oatpp-swagger/src
 )
 
-# Линковка в зависимости от опции USE_LOCAL_OATPP
-# Используем локальные библиотеки
+
 target_link_libraries(${CMAKE_PROJECT_NAME}-lib
     PUBLIC
-        oatpp-lib           # или oatpp::oatpp если создали ALIAS
-        oatpp-swagger-lib   # или oatpp::oatpp-swagger
+        oatpp-lib
+        oatpp-test-lib
+        oatpp-swagger-lib
         wsock32
         ws2_32
 )
 
 
-# Исполняемый файл
 add_executable(${CMAKE_PROJECT_NAME}-exe)
 target_sources(${CMAKE_PROJECT_NAME}-exe
     PRIVATE
@@ -43,9 +40,8 @@ target_sources(${CMAKE_PROJECT_NAME}-exe
 target_link_libraries(${CMAKE_PROJECT_NAME}-exe
     PUBLIC
         ${CMAKE_PROJECT_NAME}-lib
-        oatpp-lib           # или oatpp::oatpp если создали ALIAS
-        oatpp-swagger-lib   # или oatpp::oatpp-swagger
+        oatpp-lib
+        oatpp-swagger-lib
 )
 
-# Порядок сборки
 add_dependencies(${CMAKE_PROJECT_NAME}-exe ${CMAKE_PROJECT_NAME}-lib)

@@ -12,12 +12,14 @@ target_include_directories(${CMAKE_PROJECT_NAME}-tests
         ${CMAKE_SOURCE_DIR}/src
 )
 
-# Линковка тестов
 target_link_libraries(${CMAKE_PROJECT_NAME}-tests
     PRIVATE
         ${CMAKE_PROJECT_NAME}-lib
         oatpp-lib
+        oatpp-test-lib
         oatpp-swagger-lib
+        wsock32
+        ws2_32
 )
 
 add_dependencies(${CMAKE_PROJECT_NAME}-tests ${CMAKE_PROJECT_NAME}-lib)
