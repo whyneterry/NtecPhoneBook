@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/cmake_install.cmake",
+		"C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/src/cmake_install.cmake",
+		"C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
