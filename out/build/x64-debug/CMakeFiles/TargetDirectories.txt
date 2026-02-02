@@ -1,9 +1,0 @@
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/CMakeFiles/edit_cache.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/src/CMakeFiles/NtecPhoneBookApp-lib.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/src/CMakeFiles/NtecPhoneBookApp-exe.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/src/CMakeFiles/rebuild_cache.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/tests/CMakeFiles/NtecPhoneBookApp-tests.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/tests/CMakeFiles/edit_cache.dir
-C:/Users/user/Downloads/NtecPhoneBook-main/out/build/x64-debug/tests/CMakeFiles/rebuild_cache.dir
