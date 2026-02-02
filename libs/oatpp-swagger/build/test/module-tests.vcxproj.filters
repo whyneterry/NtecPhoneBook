@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\ControllerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\AsyncControllerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\test-controllers\TestController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\test-controllers\TestAsyncController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\ControllerTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\oatpp-swagger\AsyncControllerTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D528AC45-D2C8-3928-A72A-8E6632ABB1EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0CBDCDD-6599-3FE0-AE63-360D41D86289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -35,8 +35,7 @@
 .idea
 cmake-build-debug/
 
-# custom build
-build/
+
 
 # MAC
 **/.DS_Store

@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD7139CE-76B9-3E1A-A39C-C919F6ACCADB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>oatpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">oatpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">oatpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">oatpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">oatpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">oatpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">oatpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">oatpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">oatpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp -BC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build --check-stamp-file C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-config.cmake.in;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-install.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp -BC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build --check-stamp-file C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-config.cmake.in;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-install.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp -BC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build --check-stamp-file C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-config.cmake.in;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-install.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp -BC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build --check-stamp-file C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-config.cmake.in;C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\cmake\module-install.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\ConditionVariable.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\ConditionVariable.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Coroutine.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Coroutine.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\CoroutineWaitList.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\CoroutineWaitList.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Error.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Error.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Executor.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/async/Executor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Executor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Lock.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Lock.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Processor.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/async/Processor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\Processor.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\utils\FastQueue.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOEventWorker_common.cpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOEventWorker_epoll.cpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOEventWorker_kqueue.cpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOEventWorker_stub.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOEventWorker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOWorker.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\IOWorker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\TimerWorker.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\TimerWorker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\Worker.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\async\worker\Worker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\CommandLineArguments.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\CommandLineArguments.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Compiler.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Config.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Countable.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Countable.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Log.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\Log.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\base\ObjectHandle.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\auth_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\auth_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\base_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\base_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\bundle_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\bundle_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\cors_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\api_controller\cors_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\dto\base_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\dto\base_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\dto\enum_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\dto\enum_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\ApiClient_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\ApiClient_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\ApiController_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\ApiController_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\DbClient_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\DbClient_undef.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\DTO_define.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\codegen\DTO_undef.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\concurrency\SpinLock.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\concurrency\SpinLock.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\concurrency\Utils.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/concurrency/Utils.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\concurrency\Utils.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\Bundle.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\Bundle.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\FIFOBuffer.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\FIFOBuffer.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\IOBuffer.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\IOBuffer.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\Processor.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/data/buffer/Processor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\buffer\Processor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectRemapper.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectRemapper.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectMapper.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/data/mapping/ObjectMapper.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectMapper.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectToTreeMapper.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\ObjectToTreeMapper.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\Tree.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/data/mapping/Tree.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\Tree.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\TreeToObjectMapper.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\TreeToObjectMapper.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\TypeResolver.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\mapping\TypeResolver.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\File.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\File.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\InMemoryData.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\InMemoryData.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\Resource.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\TemporaryFile.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\resource\TemporaryFile.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\share\LazyStringMap.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\share\MemoryLabel.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\share\MemoryLabel.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\share\StringTemplate.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\share\StringTemplate.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\BufferStream.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\BufferStream.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\FIFOStream.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\FIFOStream.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\FileStream.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\FileStream.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\Stream.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\Stream.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\StreamBufferedProxy.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\stream\StreamBufferedProxy.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Any.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Any.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Collection.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Enum.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Enum.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\List.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\List.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Map.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Object.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Object.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\PairList.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\PairList.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Primitive.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Primitive.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Tree.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/data/type/Tree.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Tree.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Type.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Type.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\UnorderedMap.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\UnorderedMap.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\UnorderedSet.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\UnorderedSet.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Vector.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\data\type\Vector.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Base64.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Base64.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Hex.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Hex.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Unicode.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Unicode.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Url.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/encoding/Url.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\encoding\Url.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Beautifier.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Beautifier.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Deserializer.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Deserializer.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\ObjectMapper.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/json/ObjectMapper.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\ObjectMapper.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Serializer.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Serializer.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Utils.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/json/Utils.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\json\Utils.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\macro\basic.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\macro\codegen.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\macro\component.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Address.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Address.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionPool.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionPool.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionProvider.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/ConnectionProvider.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionProviderSwitch.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\ConnectionProviderSwitch.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Server.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Server.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Url.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/Url.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\Url.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionInactivityChecker.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionInactivityChecker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionMaxAgeChecker.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionMaxAgeChecker.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionMonitor.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\ConnectionMonitor.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\MetricsChecker.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\monitor\StatCollector.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\Connection.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\Connection.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\ConnectionConfigurer.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\client\ConnectionProvider.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/tcp/client/ConnectionProvider.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\client\ConnectionProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\server\ConnectionProvider.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/tcp/server/ConnectionProvider.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\tcp\server\ConnectionProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Interface.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Interface.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Pipe.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Pipe.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Socket.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\Socket.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\client\ConnectionProvider.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/virtual_/client/ConnectionProvider.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\client\ConnectionProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\server\ConnectionProvider.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/network/virtual_/server/ConnectionProvider.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\network\virtual_\server\ConnectionProvider.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\Connection.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\DbClient.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\DbClient.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\Executor.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/orm/Executor.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\Executor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\QueryResult.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\QueryResult.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\SchemaMigration.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\SchemaMigration.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\Transaction.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\orm\Transaction.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\provider\Invalidator.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\provider\Pool.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\provider\Provider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\parser\Caret.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\parser\Caret.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\parser\ParsingError.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\parser\ParsingError.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Binary.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Binary.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Conversion.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Conversion.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\CRC32.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\CRC32.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Random.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\Random.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\String.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\utils\String.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\ApiClient.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\ApiClient.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\HttpRequestExecutor.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\HttpRequestExecutor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\RequestExecutor.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\RequestExecutor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\RetryPolicy.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\client\RetryPolicy.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\FileProvider.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\FileProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\InMemoryDataProvider.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\InMemoryDataProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Multipart.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Multipart.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Part.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Part.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\PartList.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\PartList.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\PartReader.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\PartReader.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Reader.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\Reader.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\StatefulParser.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\StatefulParser.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\TemporaryFileProvider.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\multipart\TemporaryFileProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\ContentMappers.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\mime\ContentMappers.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\CommunicationError.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\CommunicationError.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\Http.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\Http.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\encoding\Chunked.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\encoding\Chunked.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\encoding\EncoderProvider.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\encoding\ProviderCollection.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\encoding\ProviderCollection.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\BodyDecoder.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\BodyDecoder.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\Request.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/web/protocol/http/incoming/Request.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\Request.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\RequestHeadersReader.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\RequestHeadersReader.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\Response.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/web/protocol/http/incoming/Response.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\Response.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\ResponseHeadersReader.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\ResponseHeadersReader.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\SimpleBodyDecoder.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\incoming\SimpleBodyDecoder.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Body.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Body.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\BufferBody.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\BufferBody.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\MultipartBody.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\MultipartBody.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Request.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/web/protocol/http/outgoing/Request.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Request.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Response.cpp">
+      <ObjectFileName>$(IntDir)/oatpp/web/protocol/http/outgoing/Response.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\Response.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\ResponseFactory.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\ResponseFactory.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\StreamingBody.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\outgoing\StreamingBody.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\utils\CommunicationUtils.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\protocol\http\utils\CommunicationUtils.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\AsyncHttpConnectionHandler.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\AsyncHttpConnectionHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpConnectionHandler.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpConnectionHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpProcessor.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpProcessor.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpRequestHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpRouter.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpRouter.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpServerError.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\HttpServerError.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\api\ApiController.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\api\ApiController.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\api\Endpoint.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\api\Endpoint.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\handler\AuthorizationHandler.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\handler\AuthorizationHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\handler\ErrorHandler.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\handler\ErrorHandler.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\interceptor\AllowCorsGlobal.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\interceptor\AllowCorsGlobal.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\interceptor\RequestInterceptor.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\server\interceptor\ResponseInterceptor.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\url\mapping\Pattern.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\url\mapping\Pattern.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\web\url\mapping\Router.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\Environment.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\Environment.hpp" />
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\IODefinitions.cpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\IODefinitions.hpp" />
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp\Types.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\ZERO_CHECK.vcxproj">
+      <Project>{CEC2EC6A-2EFC-35ED-A00C-4B7158C117BB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

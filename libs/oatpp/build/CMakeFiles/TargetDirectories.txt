@@ -1,0 +1,14 @@
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/CMakeFiles/PACKAGE.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/CMakeFiles/INSTALL.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/oatpp.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/oatpp-test.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/PACKAGE.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/RUN_TESTS.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/src/CMakeFiles/INSTALL.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/test/CMakeFiles/oatppAllTests.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/test/CMakeFiles/PACKAGE.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/test/CMakeFiles/RUN_TESTS.dir
+C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/test/CMakeFiles/INSTALL.dir

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp-test\Checker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp-test\UnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp-test\Checker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp-test\UnitTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\oatpp-test\web\ClientServerTestRunner.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F84C2BA4-E2AA-3D3F-8486-8D47F27EDA84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web">
+      <UniqueIdentifier>{C101D708-00E7-3FAC-9839-D2AB61230777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34515631-78DE-36A2-A085-414ECAB0D08E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

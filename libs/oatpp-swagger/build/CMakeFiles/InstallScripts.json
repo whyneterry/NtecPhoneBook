@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp-swagger/build/cmake_install.cmake",
+		"C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp-swagger/build/src/cmake_install.cmake",
+		"C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp-swagger/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

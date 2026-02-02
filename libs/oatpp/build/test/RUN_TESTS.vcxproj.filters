@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\build\CMakeFiles\9aa14fe11a5c5608a6f3d20fcf6e07a8\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4ED3EDCC-E150-391B-931A-885E05D26933}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

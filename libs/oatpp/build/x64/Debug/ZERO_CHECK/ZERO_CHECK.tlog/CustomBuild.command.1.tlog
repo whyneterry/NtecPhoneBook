@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\NTECPHONEBOOK-MAIN\LIBS\OATPP\BUILD\CMAKEFILES\95F2754AFE510071FF80BDE92AEC44EF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp -BC:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Downloads/NtecPhoneBook-main/libs/oatpp/build/oatpp.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\USER\DOWNLOADS\NTECPHONEBOOK-MAIN\LIBS\OATPP-SWAGGER\BUILD\CMAKEFILES\DC1786FD43F5AAA0B7C51BC4C2405AC6\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

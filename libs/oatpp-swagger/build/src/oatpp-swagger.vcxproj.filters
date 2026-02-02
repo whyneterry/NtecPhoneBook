@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\AsyncController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Controller.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\ControllerPaths.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Generator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Resources.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\Types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\oatpp-swagger\oas3\Model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp-swagger\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D528AC45-D2C8-3928-A72A-8E6632ABB1EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0CBDCDD-6599-3FE0-AE63-360D41D86289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

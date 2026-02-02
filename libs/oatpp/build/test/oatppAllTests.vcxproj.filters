@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\async\ConditionVariableTest.cpp">
+      <Filter>Source Files\async</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\async\LockTest.cpp">
+      <Filter>Source Files\async</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\base\CommandLineArgumentsTest.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\base\LogTest.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\buffer\ProcessorTest.cpp">
+      <Filter>Source Files\data\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\ObjectRemapperTest.cpp">
+      <Filter>Source Files\data\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\ObjectToTreeMapperTest.cpp">
+      <Filter>Source Files\data\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TreeTest.cpp">
+      <Filter>Source Files\data\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TreeToObjectMapperTest.cpp">
+      <Filter>Source Files\data\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TypeResolverTest.cpp">
+      <Filter>Source Files\data\mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\resource\InMemoryDataTest.cpp">
+      <Filter>Source Files\data\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\LazyStringMapTest.cpp">
+      <Filter>Source Files\data\share</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\MemoryLabelTest.cpp">
+      <Filter>Source Files\data\share</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\StringTemplateTest.cpp">
+      <Filter>Source Files\data\share</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\stream\BufferStreamTest.cpp">
+      <Filter>Source Files\data\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\AnyTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\EnumTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\InterpretationTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ListTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ObjectTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ObjectWrapperTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\PairListTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\PrimitiveTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\StringTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\TypeTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\UnorderedMapTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\UnorderedSetTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\VectorTest.cpp">
+      <Filter>Source Files\data\type</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\Base64Test.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\HexTest.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\UnicodeTest.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\UrlTest.cpp">
+      <Filter>Source Files\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\BooleanTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DeserializerTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DTOMapperPerfTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DTOMapperTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\EnumTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\UnorderedSetTest.cpp">
+      <Filter>Source Files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\ConnectionPoolTest.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\UrlTest.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\monitor\ConnectionMonitorTest.cpp">
+      <Filter>Source Files\network\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\virtual_\InterfaceTest.cpp">
+      <Filter>Source Files\network\virtual_</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\virtual_\PipeTest.cpp">
+      <Filter>Source Files\network\virtual_</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\provider\PoolTemplateTest.cpp">
+      <Filter>Source Files\provider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\provider\PoolTest.cpp">
+      <Filter>Source Files\provider</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\utils\parser\CaretTest.cpp">
+      <Filter>Source Files\utils\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\ClientRetryTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullAsyncClientTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullAsyncTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\PipelineAsyncTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\PipelineTest.cpp">
+      <Filter>Source Files\web</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\mime\multipart\StatefulParserTest.cpp">
+      <Filter>Source Files\web\mime\multipart</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\mime\ContentMappersTest.cpp">
+      <Filter>Source Files\web\mime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\protocol\http\encoding\ChunkedTest.cpp">
+      <Filter>Source Files\web\protocol\http\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\HttpRouterTest.cpp">
+      <Filter>Source Files\web\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\ServerStopTest.cpp">
+      <Filter>Source Files\web\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\api\ApiControllerTest.cpp">
+      <Filter>Source Files\web\server\api</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\handler\AuthorizationHandlerTest.cpp">
+      <Filter>Source Files\web\server\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\AllTestsMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\LoggerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\async\ConditionVariableTest.hpp">
+      <Filter>Header Files\async</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\async\LockTest.hpp">
+      <Filter>Header Files\async</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\base\CommandLineArgumentsTest.hpp">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\base\LogTest.hpp">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\buffer\ProcessorTest.hpp">
+      <Filter>Header Files\data\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\ObjectRemapperTest.hpp">
+      <Filter>Header Files\data\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\ObjectToTreeMapperTest.hpp">
+      <Filter>Header Files\data\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TreeTest.hpp">
+      <Filter>Header Files\data\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TreeToObjectMapperTest.hpp">
+      <Filter>Header Files\data\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\mapping\TypeResolverTest.hpp">
+      <Filter>Header Files\data\mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\resource\InMemoryDataTest.hpp">
+      <Filter>Header Files\data\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\LazyStringMapTest.hpp">
+      <Filter>Header Files\data\share</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\MemoryLabelTest.hpp">
+      <Filter>Header Files\data\share</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\share\StringTemplateTest.hpp">
+      <Filter>Header Files\data\share</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\stream\BufferStreamTest.hpp">
+      <Filter>Header Files\data\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\AnyTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\EnumTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\InterpretationTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ListTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ObjectTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\ObjectWrapperTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\PairListTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\PrimitiveTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\StringTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\TypeTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\UnorderedMapTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\UnorderedSetTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\data\type\VectorTest.hpp">
+      <Filter>Header Files\data\type</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\Base64Test.hpp">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\HexTest.hpp">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\UnicodeTest.hpp">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\encoding\UrlTest.hpp">
+      <Filter>Header Files\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\BooleanTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DeserializerTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DTOMapperPerfTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\DTOMapperTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\EnumTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\json\UnorderedSetTest.hpp">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\ConnectionPoolTest.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\UrlTest.hpp">
+      <Filter>Header Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\monitor\ConnectionMonitorTest.hpp">
+      <Filter>Header Files\network\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\virtual_\InterfaceTest.hpp">
+      <Filter>Header Files\network\virtual_</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\network\virtual_\PipeTest.hpp">
+      <Filter>Header Files\network\virtual_</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\provider\PoolTemplateTest.hpp">
+      <Filter>Header Files\provider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\provider\PoolTest.hpp">
+      <Filter>Header Files\provider</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\utils\parser\CaretTest.hpp">
+      <Filter>Header Files\utils\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\ClientRetryTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullAsyncClientTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullAsyncTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\FullTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\PipelineAsyncTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\PipelineTest.hpp">
+      <Filter>Header Files\web</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\BasicAuthorizationController.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\BearerAuthorizationController.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\Client.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\Controller.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\ControllerAsync.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\ControllerWithErrorHandler.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\ControllerWithInterceptors.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\ControllerWithInterceptorsAsync.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\app\DTOs.hpp">
+      <Filter>Header Files\web\app</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\mime\multipart\StatefulParserTest.hpp">
+      <Filter>Header Files\web\mime\multipart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\mime\ContentMappersTest.hpp">
+      <Filter>Header Files\web\mime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\protocol\http\encoding\ChunkedTest.hpp">
+      <Filter>Header Files\web\protocol\http\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\HttpRouterTest.hpp">
+      <Filter>Header Files\web\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\ServerStopTest.hpp">
+      <Filter>Header Files\web\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\api\ApiControllerTest.hpp">
+      <Filter>Header Files\web\server\api</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\web\server\handler\AuthorizationHandlerTest.hpp">
+      <Filter>Header Files\web\server\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\oatpp\LoggerTest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Downloads\NtecPhoneBook-main\libs\oatpp\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F84C2BA4-E2AA-3D3F-8486-8D47F27EDA84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\async">
+      <UniqueIdentifier>{332DEF3A-21E5-36AC-9B31-B92D8DA48328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\base">
+      <UniqueIdentifier>{EA494A00-FEA9-3577-BC57-059BA87E380E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data">
+      <UniqueIdentifier>{08B9C970-68B5-3411-990E-4E42D99EA523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\buffer">
+      <UniqueIdentifier>{6C118BF3-2318-389B-8E72-E669B23FEC66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\mapping">
+      <UniqueIdentifier>{31C4B510-9D75-3758-BAC7-689D4B7BC988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\resource">
+      <UniqueIdentifier>{0912E8C6-C7BD-352B-B0C0-82D631E5B3F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\share">
+      <UniqueIdentifier>{3DE72813-2CA4-305D-8B89-A9FD72F248EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\stream">
+      <UniqueIdentifier>{6ABD7D98-7D85-3E2E-8A49-3534CFB36CA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data\type">
+      <UniqueIdentifier>{F49BBDE9-081B-3B28-AC0B-5D9E31A925B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\encoding">
+      <UniqueIdentifier>{7A136ED2-1ADC-3D32-9B25-976360825E6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{E9EB824E-F6FC-3FE4-94FC-C80B6808EC15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network">
+      <UniqueIdentifier>{B420007C-C9F3-3311-9B5D-7F2717098D12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network\monitor">
+      <UniqueIdentifier>{722B610F-EFA5-3960-A761-7AA190908E5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\network\virtual_">
+      <UniqueIdentifier>{DD068D08-0446-31F9-BAF9-73FB210FDD75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\provider">
+      <UniqueIdentifier>{8CC2F3B1-42F7-3A62-A8AD-1F0C5AC8D5D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{55B3A598-282A-3C42-925B-AFCD916A513C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\parser">
+      <UniqueIdentifier>{B70168E0-5576-3B18-A2DA-90208B1E537C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web">
+      <UniqueIdentifier>{C101D708-00E7-3FAC-9839-D2AB61230777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\app">
+      <UniqueIdentifier>{14F401BE-1F43-3D51-8FE6-3D7B581EA584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\mime">
+      <UniqueIdentifier>{E225E530-3B65-3E8C-98B8-7122AB8D5C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\mime\multipart">
+      <UniqueIdentifier>{A707D4F1-5FEE-3012-A540-655BB71B00EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\protocol">
+      <UniqueIdentifier>{2B6D1E99-19F3-37CD-9A7B-4DB183829647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\protocol\http">
+      <UniqueIdentifier>{9868440C-C708-3FAB-A8C4-26623868FAC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\protocol\http\encoding">
+      <UniqueIdentifier>{DAAC0DAE-4D2D-3437-9CDD-E1095B2A5127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\server">
+      <UniqueIdentifier>{AA1DD021-E994-3174-B2B1-E547C03B9EEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\server\api">
+      <UniqueIdentifier>{0D6E4E35-477A-3B0F-9E34-D6FF00625FAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\web\server\handler">
+      <UniqueIdentifier>{59DE9B29-7D39-3AA4-B8D3-790923DFCAF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34515631-78DE-36A2-A085-414ECAB0D08E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\async">
+      <UniqueIdentifier>{9773BC09-E7AB-3EDC-AC03-22090FC0C573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{DB512625-65A1-369B-8C6D-5051980B0F27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{F45D4DC9-1C13-36B7-8A26-58A41D59D1FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\buffer">
+      <UniqueIdentifier>{BC1FCA24-2ED7-3E98-8380-0491C0B470E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\mapping">
+      <UniqueIdentifier>{2D3C636A-6F4D-351D-816A-E1ADF50EFFC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\resource">
+      <UniqueIdentifier>{40494FE6-0AAC-392D-AB1F-9A8D188F8B78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\share">
+      <UniqueIdentifier>{158F3E83-9B7F-3B18-9F6F-04519AC35F84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\stream">
+      <UniqueIdentifier>{1E8573B0-AE29-3655-A175-E9908F3AC42C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data\type">
+      <UniqueIdentifier>{9CDCBDF5-0028-33D5-A27D-8AB4C89D3AB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\encoding">
+      <UniqueIdentifier>{033BEDDA-2F86-3D83-8D1C-72A584B3B2DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\json">
+      <UniqueIdentifier>{2F60009E-03ED-36CB-A270-3710BD6D2387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{819A35C6-F844-3C27-9931-72E6FA7FF1F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\monitor">
+      <UniqueIdentifier>{93C9C9E2-5D13-3B4E-A25D-BB5E2E3FE0DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network\virtual_">
+      <UniqueIdentifier>{23981F26-E3AB-3A53-BAB0-26A39A7F871E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\provider">
+      <UniqueIdentifier>{BF046CED-48B9-3A47-8738-FE736FBBEDE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{60142260-B214-380F-ACA8-FC75D1323CE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\parser">
+      <UniqueIdentifier>{F8D85337-FFC7-34DD-A5F0-7E156D3E3968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web">
+      <UniqueIdentifier>{D86AD832-D9BE-3E4D-9C0A-46FCB3CA4B13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\mime">
+      <UniqueIdentifier>{59A26FD6-9BCB-392A-9325-C0AD389108A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\mime\multipart">
+      <UniqueIdentifier>{46D1F252-E7F3-397E-9B62-1977D45D8D93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\protocol">
+      <UniqueIdentifier>{6F7A3755-AF8F-3373-95DE-EC98BD12A27F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\protocol\http">
+      <UniqueIdentifier>{6A5E817A-BC45-37C9-BDB5-90DB022B9765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\protocol\http\encoding">
+      <UniqueIdentifier>{599B9171-21F9-3D5D-89D9-9B80366FBE27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\server">
+      <UniqueIdentifier>{3443F09D-62CD-30B5-91F6-05BB68BB3AE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\server\api">
+      <UniqueIdentifier>{5B2C1DAE-4EEF-33BB-AE31-A8E3D249833E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\web\server\handler">
+      <UniqueIdentifier>{95BF183A-0F0E-3870-A0BB-DC68F4D2FB5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
